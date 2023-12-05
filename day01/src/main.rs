@@ -4,11 +4,11 @@ use std::collections::HashMap;
 
 fn main() {
 
-    let file_name: &str = "../day01/day01-input.txt";
+    let file_name: &str = "../day01/input.txt";
     let file: File = File::open(file_name).expect("file not found");
     println!("Cal Value (digits only): {}", part_one(std::io::BufReader::new(file)));
 
-    let file_name: &str = "../day01/day01-input.txt";
+    let file_name: &str = "../day01/input.txt";
     let file: File = File::open(file_name).expect("file not found");
     println!("Cal Value (all numbers): {}", part_two(std::io::BufReader::new(file)));
 }

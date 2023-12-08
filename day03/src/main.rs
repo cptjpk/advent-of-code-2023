@@ -10,13 +10,6 @@ struct Number {
     found: bool,
 }
 
-struct Symbol {
-    value: char,
-    x: i32,
-    y: i32,
-    adj: i32,
-}
-
 fn main() {
     let mut file = File::open("./input.txt").expect("Failed to open file");
     let mut contents = String::new();
